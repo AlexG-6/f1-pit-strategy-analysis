@@ -1,4 +1,4 @@
-# f1-sit-strategy-analysis
+
 
 # F1 Pit Stop Strategy Analysis — 2021 French Grand Prix
 
@@ -15,15 +15,15 @@ Verstappen's second stop?
 
 ## Setup
 
-\`\`\`bash
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install fastf1 pandas matplotlib
 python3 02_gap_analysis.py
 python3 03_pit_durations.py
-\`\`\`
+```
 
-## The UnderCut 
+## The Undercut 
 Verstappen started from pole but ran wide at Turn 1, handing the lead to Hamilton at the start. Hamilton controlled the race from there, building a gap of roughly 3 seconds by lap 17. At the first round of stops, Red Bull reacted to Mercedes pitting Bottas by bringing Verstappen in on lap 18, one lap before Hamilton. Verstappen's out-lap was strong enough that when Hamilton pitted a lap later, he rejoined the track just behind Verstappen instead of ahead. The gap analysis confirms this directly in the timing data. Hamilton was 3.1 seconds ahead on lap 17, and by lap 20, once both drivers had completed their stops, Verstappen was 0.65 seconds ahead. A net swing of about 3.75 seconds decided entirely by a one-lap difference in pit timing.
 
 ![Gap analysis chart](ver_ham_gap.png)
@@ -38,7 +38,7 @@ Across the field, average pit lane duration (time from pit entry to pit exit) ra
 
 ![Pit duration by team](team_pit_durations.png)
 
-## Limitations 
+## Limitations & Future Work
 
 This analysis uses lap-level cumulative time to measure the gap between drivers, which captures the net effect of pace, tire age, and traffic combined. It doesn't isolate pure pace in clean air from the effect of running behind another car. A more rigorous version would filter to laps where each driver had clear track ahead of them before comparing pace.
 
