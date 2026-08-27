@@ -31,7 +31,7 @@ Verstappen started from pole but ran wide at Turn 1, handing the lead to Hamilto
 
 ## The Two Stop Recovery
 
-Verstappen held a narrow lead for over a dozen laps before Red Bull committed to a second stop at the end of lap 32, switching to fresher tires while Hamilton and Mercedes stayed on a one-stop strategy. This dropped Verstappen to roughly 18 seconds behind by lap 33. From there, tire age became the deciding factor: Hamilton and Bottas's tires degraded through the closing laps, and Verstappen closed the gap steadily on newer rubber, passing Perez, then Bottas, and finally catching Hamilton, taking the lead on lap 52 of 53 and winning by 2.9 seconds. In the data, this shows up as an 18-to-19 second recovery over roughly 19 laps, an average pace advantage of about 1 second per lap.
+Verstappen held a narrow lead for over a dozen laps before Red Bull committed to a second stop at the end of lap 32, switching to fresher tires while Hamilton and Mercedes stayed on a one-stop strategy. This dropped Verstappen to roughly 18 seconds behind by lap 33. From there, tire age became the deciding factor: Hamilton and Bottas's tires degraded through the closing laps, and Verstappen closed the gap steadily on newer tires, passing Perez, then Bottas, and finally catching Hamilton, taking the lead on lap 52 of 53 and winning by 2.9 seconds. In the data, this shows up as an 18-to-19 second recovery over roughly 19 laps, an average pace advantage of about 1 second per lap.
 
 ## Team Pit Stop Comparison
 
